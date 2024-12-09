@@ -34,7 +34,6 @@ class BookController extends Controller
 
     public function edit($id)
     {
-        // Fetch the book by its ID
         $book = Book::findOrFail($id);
     
         // Pass the book to the view
