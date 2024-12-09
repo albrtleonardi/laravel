@@ -55,7 +55,7 @@ class BookController extends Controller
         // Update the book
         $book->update($validated);
     
-        // Redirect back to the book index
+        //Hai aku leo
         return redirect()->route('books.index');
     }
     
